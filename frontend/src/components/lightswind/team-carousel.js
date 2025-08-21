@@ -188,7 +188,7 @@ export const TeamCarousel = ({ members, title = "", titleSize = "xl", titleColor
         xl: 'text-7xl',
         '2xl': 'text-8xl',
     };
-    return (_jsxs("div", { id: "team-carousel-container", className: cn(`h-[1000px] sm:h-[700px] lg:min-h-screen flex flex-col items-center justify-center overflow-hidden text-white
+    return (_jsxs("div", { id: "team-carousel-container", className: cn(`mt-64 sm:mt-0 sm:h-[700px] h-auto lg:min-h-screen flex flex-col items-center justify-center overflow-hidden text-white
         `, className), style: { background: background }, onTouchStart: handleTouchStart, onTouchMove: handleTouchMove, onTouchEnd: handleTouchEnd, children: [title && (_jsx("h1", { className: cn("font-black uppercase tracking-tight absolute top-12 bottom-4 left-1/2 transform -translate-x-1/2 pointer-events-none whitespace-nowrap", titleSizeClasses[titleSize], titleClassName), style: {
                     color: 'white',
                     background: `linear-gradient(to bottom, ${titleColor}75 40%, transparent 76%)`,

@@ -16,31 +16,31 @@ const optimizeImage = (url) => {
 const testimonials = [
     {
         quote: "Joining this gym was the best decision I ever made! The trainers are supportive, and I’ve seen amazing results in just a few months.",
-        name: "Aarav Mehta",
+        name: "Alen",
         designation: "Lost 12kg in 3 months",
         ...optimizeImage("https://images.unsplash.com/photo-1535713875002-d1d0cf377fde"),
     },
     {
         quote: "The group classes are fun and motivating. I never thought workouts could be this enjoyable and effective at the same time!",
-        name: "Priya Sharma",
+        name: "Aliena",
         designation: "Member since 2023",
         ...optimizeImage("https://images.unsplash.com/photo-1438761681033-6461ffad8d80"),
     },
     {
         quote: "From strength training to nutrition guidance, everything is top-notch here. I feel stronger and more confident than ever.",
-        name: "Rohan Patel",
+        name: "John D",
         designation: "Gained 8kg muscle in 6 months",
         ...optimizeImage("https://images.unsplash.com/photo-1623582854588-d60de57fa33f"),
     },
     {
         quote: "The trainers push you just enough to achieve your best. I've built consistency and discipline that I never had before.",
-        name: "Neha Kapoor",
+        name: "Alex P",
         designation: "Yoga & HIIT enthusiast",
         ...optimizeImage("https://images.unsplash.com/photo-1636041293178-808a6762ab39"),
     },
     {
         quote: "State-of-the-art equipment, great vibe, and friendly community. This gym feels like my second home!",
-        name: "Karan Singh",
+        name: "Harry",
         designation: "Member since 2022",
         ...optimizeImage("https://images.unsplash.com/photo-1624561172888-ac93c696e10c"),
     },

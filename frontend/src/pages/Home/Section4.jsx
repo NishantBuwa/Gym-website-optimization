@@ -68,7 +68,7 @@ function Section4() {
   }, [])
 
   return (
-    <div className='h-fit bg-gradient-to-br from-black from-20% via-slate-600 via-60% to-black to-80% bg-cover bg-center pb-20' >
+    <div className=' bg-gradient-to-br from-black from-20% via-slate-600 via-60% to-black to-80% bg-cover bg-center pb-20' >
       <div className="lg:[--card-width:280px] md:[--card-width:200px] [--card-width:80px] lg:[--card-height:420px] md:[--card-height:320px] [--card-height:280px]">
         <h1 className='md:text-6xl sm:text-4xl text-3xl mx-auto pt-20 text-center text-white'>OUR TRAINERS</h1>
         <div className="mt-[-300px] sm:mt-0">
