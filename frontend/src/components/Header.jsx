@@ -27,10 +27,10 @@ function Header() {
           <img src={logo1} alt=""  width={229} height={210}  className="sm:h-[80px] sm:w-auto h-[30px] w-auto invert"/>
         </div>
         <div className="right flex md:gap-12 md:mr-8 sm:gap-6 mr-4 gap-3 ">
-          <a to='/'>Home</a>
-          <a to='/'>About</a>
-          <a to='/signup'>Signup</a>
-          <a to='/login'>Login</a>
+          <a href='/'>Home</a>
+          <a href='/'>About</a>
+          <a href='/'>Signup</a>
+          <a href='/'>Login</a>
         </div>
       </div>
     </div>
