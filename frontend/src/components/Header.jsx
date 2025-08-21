@@ -1,5 +1,6 @@
 import React,{useState, useEffect} from 'react'
 import logo1 from '../assests/logo1.webp'
+import { Link } from 'react-router-dom'
 
 function Header() {
 
@@ -27,10 +28,10 @@ function Header() {
           <img src={logo1} alt=""  width={229} height={210}  className="sm:h-[80px] sm:w-auto h-[30px] w-auto invert"/>
         </div>
         <div className="right flex md:gap-12 md:mr-8 sm:gap-6 mr-4 gap-3 ">
-          <a href='/'>Home</a>
-          <a href='/'>About</a>
-          <a href='/'>Signup</a>
-          <a href='/'>Login</a>
+          <Link to='/'>Home</Link>
+          <Link to='/'>About</Link>
+          <Link to='/'>Signup</Link>
+          <Link to='/'>Login</Link>
         </div>
       </div>
     </div>
